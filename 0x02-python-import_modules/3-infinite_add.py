@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
+    """A function that sums all the command line argument added to it"""
     import sys
     
     argc = len(sys.argv)

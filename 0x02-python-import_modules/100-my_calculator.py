@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
+    """A function that acts as a calculator"""
     import calculator_1 as calculate
     import sys
 
