@@ -5,7 +5,6 @@ import sys
 argc = len(sys.argv)
 if argc != 4:
     print("Usage: >/100-my_calculator.py <a> <operator> <b>")
-    print("")
     exit(1)
 
 a = int(sys.argv[1])
@@ -21,8 +20,6 @@ elif sys.argv[2] == '/':
     c = calculate.div(a, b)
 else:
     print("Unknown operator. Available operators: +, -, * and /")
-    print("")
     exit(1)
 
 print("{} {} {} = {}".format(a, sys.argv[2], b, c))
-print('')
