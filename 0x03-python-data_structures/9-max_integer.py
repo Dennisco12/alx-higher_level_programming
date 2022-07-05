@@ -3,7 +3,7 @@
 def max_integer(my_list=[]):
     '''A function that returns the biggest integer in a list'''
 
-    if my_list == None:
+    if my_list is None:
         return None
 
     j = 0
