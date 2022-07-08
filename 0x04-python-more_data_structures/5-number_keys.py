@@ -1,4 +1,4 @@
-#!/usrs/bin/python3
+#!/usr/bin/python3
 
 def number_keys(a_dictionary):
     '''Returns the number of keys ina dictonary'''
