@@ -4,7 +4,7 @@ def best_score(a_dictionary):
     '''A function that returns the key with the highest value'''
 
     highest = 0
-    if a_dictionary is not None:
+    if len(a_dictionary) not None:
         for k, v in a_dictionary.items():
             if v > highest:
                 highest = v
