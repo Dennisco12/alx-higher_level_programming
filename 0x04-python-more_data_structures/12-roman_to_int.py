@@ -8,7 +8,20 @@ def roman_to_int(roman_string):
     if roman_string is None:
         return 0
 
+    m = []
+    j = 1
+    m.append(1000)
     for i in roman_string:
         if i in conv:
-            ans += conv[i]
+            co = conv[i]
+            m.append(co)
+            if m[j - 1] < m[j]:
+                ans += abs(m[j] - (2 * m[j - 1]))
+                continue;
+            else:
+                ans += conv[i]
+            j += 1;
+        else:
+            return 0
+
     return ans
