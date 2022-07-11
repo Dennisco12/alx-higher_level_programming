@@ -17,7 +17,6 @@ def roman_to_int(roman_string):
             m.append(co)
             if m[j - 1] < m[j]:
                 ans += abs(m[j] - (2 * m[j - 1]))
-                continue:
             else:
                 ans += conv[i]
             j += 1:
