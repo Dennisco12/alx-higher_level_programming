@@ -8,7 +8,19 @@ def roman_to_int(roman_string):
     if roman_string is None:
         return 0
 
-    for i in roman_string:
-        if i in conv:
-            ans += conv[i]
+    StoreString = []
+    idx = 1
+    StoreString.append(1000)
+    for strn in roman_string:
+        if strn in conv:
+            value = conv[strn]
+            StoreString.append(value)
+            if StoreString[idx - 1] < StoreString[idx]:
+                ans += StoreString[idx] - (2 * StoreString[idx - 1])
+            else:
+                ans += value
+            idx += 1
+        else:
+            return 0
+
     return ans
