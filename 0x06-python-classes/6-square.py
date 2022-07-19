@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 class Square:
+    '''This defines a class'''
     def __init__(self, size=0, position=(0, 0)):
         '''This is used to instantiate the class'''
         self.__size = size
