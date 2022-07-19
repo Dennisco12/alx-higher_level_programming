@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+'''Using a class'''
+
 class Square:
     def __init__(self, size=0):
         '''A function that defines a square by a private
