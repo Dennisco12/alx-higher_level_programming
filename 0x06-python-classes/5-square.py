@@ -2,6 +2,7 @@
 
 '''Using a new class'''
 
+
 class Square:
     def __init__(self, size=0):
         '''This instantiate the class'''
@@ -16,7 +17,7 @@ class Square:
     @size.setter
     def size(self, value):
         '''This is used to set te value of size'''
-    
+
         self.__size = value
         if not isinstance(value, int):
             raise TypeError("size must be an integer")

@@ -2,6 +2,7 @@
 
 '''Using a new class'''
 
+
 class Square:
     def __init__(self, size=0):
         '''This instatiate the class with a private arguement'''

@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
 '''We are using a class called square'''
+
+
 class Square:
     '''This defines a class'''
     def __init__(self, size=0, position=(0, 0)):
@@ -24,7 +26,8 @@ class Square:
 
     @property
     def position(self):
-        '''This is used to retrieve the attribute position'''
+        '''This is used to retrieve the
+        attribute position'''
         return self.__position
 
     @position.setter
@@ -33,7 +36,7 @@ class Square:
         if (not isinstance(value, tuple) or len(value) != 2
                 or not all(isinstance(n, int) for n in value)
                 or not all(m >= 0 for m in value)):
-            raise TypeError("position must be a tuple of two positive integers")
+            raise TypeError("position must be a tuple of 2 positive integers")
         self.__position = value
 
     def area(self):

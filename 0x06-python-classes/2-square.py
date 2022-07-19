@@ -2,7 +2,10 @@
 
 '''Using a class'''
 
+
 class Square:
+    '''This is a class definetiin'''
+
     def __init__(self, size=0):
         '''A function that defines a square by a private
         instance attribute: size'''
