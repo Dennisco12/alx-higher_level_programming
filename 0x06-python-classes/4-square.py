@@ -4,6 +4,8 @@
 
 
 class Square:
+    '''this defines a class'''
+
     def __init__(self, size=0):
         '''This instatiate the class with a private arguement'''
 

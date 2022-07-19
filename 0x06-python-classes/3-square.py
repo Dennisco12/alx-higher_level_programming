@@ -4,6 +4,8 @@
 
 
 class Square:
+    '''this defines a class'''
+
     def __init__(self, size):
         '''This instantiate with size which must be an
         integer and greater than zero'''

@@ -4,6 +4,8 @@
 
 
 class Square:
+    '''this definea a class'''
+
     def __init__(self, size=0):
         '''This instantiate the class'''
 
