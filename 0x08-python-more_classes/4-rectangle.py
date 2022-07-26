@@ -43,7 +43,7 @@ class Rectangle:
         return self.area
 
     def perimeter(self):
-        self.perimeter = 2 * (self.__width + self.height)
+        self.perimeter = 2 * (self.__width + self.__height)
         return self.perimeter
 
     def __str__(self):
@@ -62,6 +62,6 @@ class Rectangle:
     def __repr__(self):
         """This prints the string representation of the rectangle
         to be able to recreate a new instance by using eval()"""
-        matrix = "Rectangle(" + str(self.__width) + "," + str(self.width)
+        matrix = "Rectangle(" + str(self.__width) + "," + str(self.__height)
         matrix += ")"
         return (matrix)
