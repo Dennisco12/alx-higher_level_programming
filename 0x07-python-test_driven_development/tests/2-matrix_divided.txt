@@ -1,0 +1,50 @@
+This test file texts the file 2-matrix_divided.py for errors
+
+>>> matrix_divided = __import__('2-matrix_divided').matrix_divided
+>>> matrix = [
+...	[3, 6, 9],
+...	[12, 15, 18]
+... ]
+>>> print(matrix_divided(matrix, 3))
+[[1.0, 2.0, 3.0], [4.0, 5.0, 6.0]]
+
+original matrix remains unchanged
+
+>>> print(matrix)
+[[3, 6, 9], [12, 15, 18]]
+
+Doesn't work if matrix is not a list of lists of integers or floats
+
+>>> matrix = ["Dennis", "odinaka", "Isreal", "Dera", "Great"]
+>>> print(matrix_divided(matrix, 3))
+Traceback (most recent call last):
+TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+Also works for floats and integers
+
+>>> matrix = [
+...	[3.2, 4.8, 5.0],
+...	[4, 8, 12]
+... ]
+>>> print(matrix_divided(matrix, 2))
+[[1.6, 2.4, 2.5], [2.0, 4.0, 6.0]]
+
+Doesn't work if div is not an int or a float
+
+>>> matrix = [
+...	[3, 6, 9],
+...	[12, 15, 18],
+... ]
+>>> print(matrix_divided(matrix, "School"))
+Traceback (most recent call last):
+TypeError: div must be a number
+
+Doesn't work if div is zero
+
+>>> matrix = [
+...	[3, 6, 9],
+...	[12, 15, 18]
+... ]
+>>> print(matrix_divided(matrix, 0))
+Traceback (most recent call last):
+ZeroDivisionError: division by zero
