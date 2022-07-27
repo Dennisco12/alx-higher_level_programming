@@ -31,5 +31,8 @@ def matrix_divided(matrix, div):
     if div == 0:
         raise ZeroDivisionError("division by zero")
 
+    new_matrix = []
     for items in matrix:
-        return list(map(lambda x: round(x / div, 2), items))
+        new_matrix.append(list(map(lambda x: round(x / div, 2), items)))
+
+    return new_matrix
