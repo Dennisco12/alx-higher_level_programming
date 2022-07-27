@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """A function that multiplies two matrices"""
 
+
 def matrix_mul(m_a, m_b):
     """This works on the principle of mathematical marix multiplication
         Argvs:

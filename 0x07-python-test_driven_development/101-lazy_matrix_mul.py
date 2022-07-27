@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""This calculates a matrix product using NumPy"""
 import numpy as np
 
 

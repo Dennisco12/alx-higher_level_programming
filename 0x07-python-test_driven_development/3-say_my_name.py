@@ -1,6 +1,6 @@
-#1/usr/bin/python3
-
+#!/usr/bin/python3
 """This prints the first and last name if the user"""
+
 
 def say_my_name(first_name, last_name=""):
     """The prints the names of the user"""

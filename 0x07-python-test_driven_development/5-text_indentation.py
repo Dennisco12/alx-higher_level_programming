@@ -1,6 +1,9 @@
 #!/usr/bin/python3
+"""This tokenise text and seperate lines"""
+
 
 def text_indentation(text):
+    """The method to be used"""
     if not isinstance(text, str):
         raise TypeError("text must be a string")
 
