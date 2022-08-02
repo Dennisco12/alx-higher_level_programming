@@ -2,6 +2,7 @@
 """ A function that returns True if the object is an instance of a class
 that inherited from the specified class, otherwise false"""
 
+
 def inherits_from(obj, a_class):
     """method definition"""
 
