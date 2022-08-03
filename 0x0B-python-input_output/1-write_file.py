@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""A function that writes a string to a text file and 
+"""A function that writes a string to a text file and
 returns the number of characters written"""
 
 
