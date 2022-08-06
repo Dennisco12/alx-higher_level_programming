@@ -100,5 +100,5 @@ class Rectangle(Base):
             setattr(self, kw[n], val)
             n += 1
 
-        for k, v in kwargs:
+        for k, v in kwargs.items():
             setattr(self, k, v)
