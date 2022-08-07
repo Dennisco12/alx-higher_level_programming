@@ -25,3 +25,18 @@ class Square(Rectangle):
         """This returns the print function"""
         return ("[Square] ({}) {}/{} - {}".format(self.id,
                 self.x, self.y, self.width))
+
+    
+    def update(self, *args, **kwargs):
+        """This assigns values to the class attributes"""
+        attr = ["id", "size", "x", "y"]
+        n = 0
+        if args is not None and len(args) > 0:
+            for val in args:
+                if n < 4:
+                    setattr(self, attr[n], val)
+                    n += 1
+
+        elif kwargs is not None:
+            for key, value in kwargs.items():
+                setattr(self, key, value)

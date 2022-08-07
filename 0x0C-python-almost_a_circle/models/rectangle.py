@@ -96,9 +96,12 @@ class Rectangle(Base):
         kw = ["id", "width", "height", "x", "y"]
         n = 0
 
-        for val in args:
-            setattr(self, kw[n], val)
-            n += 1
+        if args is not None and len(args) > 0:
+            for val in args:
+                if n < 5:
+                    setattr(self, kw[n], val)
+                    n += 1
 
-        for k, v in kwargs.items():
-            setattr(self, k, v)
+        elif kwargs is not None:
+            for k, v in kwargs.items():
+                setattr(self, k, v)
