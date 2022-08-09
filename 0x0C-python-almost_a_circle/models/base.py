@@ -6,9 +6,10 @@ import json
 class Base:
     """This is the class definition"""
     __nb_objects = 0
+
     def __init__(self, id=None):
         """This is the class initialiser"""
-        if id != None:
+        if id is not None:
             self.id = id
         else:
             Base.__nb_objects += 1
