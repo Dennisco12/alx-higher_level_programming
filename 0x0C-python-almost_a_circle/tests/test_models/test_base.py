@@ -1,7 +1,8 @@
-#This tests the base function
+#!/usr/bin/python3
 
-from ..models.base import Base
 import unittest
+from .. import base
+
 
 def test_normal(self):
     b1 = Base()

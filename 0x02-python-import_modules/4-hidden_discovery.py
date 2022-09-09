@@ -6,4 +6,5 @@ if __name__ == "__main__":
     for name in names:
         if name[0:2] == "__":
             continue
+
         print(name)
