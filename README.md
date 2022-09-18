@@ -14,7 +14,7 @@ Python:<br/>
 [9. Everything is objects](https://github.com/Dennisco12/alx-higher_level_programming/tree/master/0x09-python-everything_is_object)<br/>
 [A. Inheritance](https://github.com/Dennisco12/alx-higher_level_programming/tree/master/0x0A-python-inheritance)<br/>
 [B. Input and Output](https://github.com/Dennisco12/alx-higher_level_programming/tree/master/0x0B-python-input_output)<br/>
-[C. Almost a circle](https://github.com/Dennisco12/alx-higher_level_programming/tree/master/0x0C-python-almost_a_circle}<br/>
+[C. Almost a circle](https://github.com/Dennisco12/alx-higher_level_programming/tree/master/0x0C-python-almost_a_circle)<br/>
 <br/>
 SQL:<br/>
 [D. SQL introduction](https://github.com/Dennisco12/alx-higher_level_programming/tree/master/0x0D-SQL_introduction)<br/>
