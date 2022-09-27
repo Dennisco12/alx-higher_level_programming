@@ -9,4 +9,4 @@ ON tv_show_genres.show_id = tv_shows.id
 LEFT JOIN tv_show_ratings
 ON tv_shows.id = tv_show_ratings.show_id
 GROUP BY name
-ORDER BY total DESC
+ORDER BY rating DESC
