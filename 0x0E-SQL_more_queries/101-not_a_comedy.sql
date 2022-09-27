@@ -11,6 +11,6 @@ LEFT JOIN (
 	ON tv_show_genres.show_id = tv_shows.id
 	WHERE tv_genres.name = 'Comedy'
 ) AS comedy_id
-ON comedy_id.show_id = tv_shows.id
-WHERE tv_shows.id = NULL
+ON comedy_id.title = tv_shows.title
+WHERE comedy_id.title = NULL
 ORDER BY tv_shows.title ASC
