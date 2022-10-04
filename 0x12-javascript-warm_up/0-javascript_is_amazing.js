@@ -4,5 +4,5 @@
 This rints "Javascript is amazing
 */
 
-const myvar = 'Javascriptis amazing';
-console.log(myvar);
+const myVar = 'JavaScript is amazing';
+console.log(myVar);
