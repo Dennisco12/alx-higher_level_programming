@@ -1,12 +1,12 @@
 #!/usr/bin/node
 module.exports = class Rectangle {
   constructor (w, h) {
-    if ((w <= 0 || h <= 0) || (w === undefined || h === undefined)) {
-    } else {
+    if ((w > 0 && h > 0) && (w !== undefined && h !== undefined)) {
       this.width = w;
       this.height = h;
     }
   }
+
   print () {
     let base = 'X';
     let n = 1;
@@ -20,12 +20,13 @@ module.exports = class Rectangle {
       n += 1;
     }
   }
+
   rotate () {
-    let temp;
-    temp = this.width;
+    const temp = this.width;
     this.width = this.height;
     this.height = temp;
   }
+
   double () {
     this.width = this.width * 2;
     this.height = this.height * 2;
