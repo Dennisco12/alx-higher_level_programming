@@ -19,5 +19,7 @@ Python:<br/>
 SQL:<br/>
 [D. SQL introduction](https://github.com/Dennisco12/alx-higher_level_programming/tree/master/0x0D-SQL_introduction)<br/>
 [E. SQL more queries](https://github.com/Dennisco12/alx-higher_level_programming/tree/master/0x0E-SQL_more_queries)<br/>
+<br/>
+Javascript: <br/>
 [F. Javascript warm up](0x12-javascript-warm_up)<br/>
-[12. Jaascript, object, scopes and closures](0x13-javascript_objects_scopes_closures)<br/>
+[12. Javascript, object, scopes and closures](0x13-javascript_objects_scopes_closures)<br/>
