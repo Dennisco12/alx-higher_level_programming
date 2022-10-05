@@ -19,4 +19,4 @@ Python:<br/>
 SQL:<br/>
 [D. SQL introduction](https://github.com/Dennisco12/alx-higher_level_programming/tree/master/0x0D-SQL_introduction)<br/>
 [E. SQL more queries](https://github.com/Dennisco12/alx-higher_level_programming/tree/master/0x0E-SQL_more_queries)<br/>
-[F. Javascript warm up](0x12-javascript_warm_up)<br/>
+[F. Javascript warm up](0x12-javascript-warm_up)<br/>
