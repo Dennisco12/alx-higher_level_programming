@@ -13,4 +13,5 @@ if __name__ == '__main__':
         content.raise_for_status()
         print(content.text)
     except:
-        print("Error code: {}".format(content.status_code))
+        if content.status_code >= 400:
+            print("Error code: {}".format(content.status_code))
